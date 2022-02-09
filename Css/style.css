@@ -1,0 +1,466 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container::after,
+.container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col33{
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col50{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col25{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col20{
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+}
+
+i{
+    color: #02918c;
+    font-size: 25px;
+}
+
+
+/* common section title part start */
+
+.section_heading h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+
+.section_heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 41px;
+}
+
+.section_heading p span{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+    /* line-height: 41px; */
+}
+
+/* common section title part end */
+
+
+/* header part css start */
+
+.logo{
+    float: left;
+    padding-top: 35px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.menu ul li a{
+    color: #d1d1d1;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* header part css end */
+
+
+/* banner part css start */
+
+.banner{
+    background-image: url(../Image/Banner.jpg);
+    height: 750px;
+    background-size: cover;
+}
+
+.banner_content{
+    text-align: center;
+    color: #fff;
+}
+
+.b_text h2{
+    font-size: 30px;
+    font-weight: 5px;
+    margin: 0 20px;
+}
+
+.b_text h1{
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 20px;
+}
+
+.b_btn a{
+    margin-top: 60px;
+    display: inline-block;
+    border: 1px solid #99c50a;
+    color: white;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #99c50a;
+}
+
+
+/* banner part css end */
+
+
+/* about part css start */
+
+.about .section_heading{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.about .section_heading h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #515151;
+}
+
+.about .section_heading h3{
+    font-size: 30px;
+    color: #515151;
+}
+
+.about .section_heading p{
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+.about_items{
+    text-align: center;
+}
+
+.about_items .col25{
+    border-right: 1px solid #d9dbdb;
+    color: #7e8287;
+    padding: 40px 30px;
+}
+
+.about_items .col25:last-child{
+    border: none;
+}
+
+/* about part css end */
+
+
+/* services part css start */
+
+.featured{
+    margin-top: 80px;
+}
+
+.f_title h2{
+    font-size: 30px;
+    color: #515151;
+    font-weight: 600;
+}
+
+.f_subtitle p{
+    font-size: 18px;
+    color: #8f8f8f;
+}
+
+.f_subtitle a{
+    float: right;
+    margin-top: -70px;
+    border: 1px solid #2b2c26;
+    color: #666666;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.cards{
+    margin-top: 72px;
+}
+
+.cards .col33{
+    position: relative;
+    padding: 15px;
+}
+
+.cards .col33 img{
+    width: 100%;
+    display: block;
+}
+
+.cards .col33 .overlay{
+    position: absolute;
+    top: 39%;
+    left: 55%;
+    text-align: center;
+    background: #26a6d1;
+}
+
+.cards .col33 .overlay p{
+    color: #fff;
+    font-size: 16px;
+    padding: 0 8px 0 8px;
+}
+
+.f_content{
+    border: 1px solid #f9f9f9;
+    width: 350px;
+    background-color: #f9f9f9;
+    border-radius: 18px;
+}
+
+.f_timer h5{
+    float: right;
+    margin-top: -45px;
+}
+
+.f_btn{
+    text-align: center;
+}
+
+.f_btn a{
+    display: inline-block;
+    border: 1px solid #99c50a;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 14px;
+    background-color: #99c50a;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* footer part css start */
+
+.footer{
+    text-align: center;
+}
+
+.footer p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #515151;
+    padding: 30px 0 25px 0;
+}
+
+/* footer part css end */
+
+/* my work part css end */
+
+
+/* contact part css start */
+
+.contact .section_heading{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact_form{
+    background: #0b0b0b;
+    margin: 95px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.input_items_one{
+    width: 640px;
+    margin: auto;
+}
+
+.form_control{
+    height: 45px;
+    background: none;
+    width: 100%;
+    text-align: center;
+    color: #7e8287;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+}
+
+.form_control:focus{
+    outline: none;
+}
+
+.input_items_two{
+    width: 640px;
+    margin: auto;
+    padding-top: 65px;
+    margin-bottom: 60px;
+}
+
+.input_textarea{
+    width: 915px;
+    margin: auto;
+    /* padding-top: 55px; */
+    /* margin-bottom: 30px; */
+}
+
+.input_textarea textarea{
+    height: 100px;
+    resize: none;
+    border-top: 1px solid #7e8287;
+}
+
+.input_textarea label{
+    color: #7e8287;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.s_btn{
+    margin: 40px 0;
+}
+
+/* contact part css end */
+
+
+/* footer part css start */
+
+.footer{
+    text-align: center;
+    background-color: #000;
+}
+
+.f_text{
+    color: #fff;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.f_text i{
+    font-size: 25px;
+    color: #FF0000;
+}
+
+ .propertis{
+     width: 100%;
+     float: left;
+     margin-top: 25px;
+ }
+
+ .one{
+     width: 50%;
+     float: left;
+     background-color: #e2f8ff;
+ }
+ .subone ul{
+     list-style: none;
+ }
+ .subone ul li{
+    margin: 10px 35px ;
+}
+.subone ul li{
+    margin: 10px 35px ;
+}
+.subtwo ul li{
+    margin: 10px 35px ;
+}
+.subone ul li a{
+    background-color: #99c50a;
+    border: none;
+    text-decoration: none;
+    border-radius: 5PX;
+    padding: 10px 10px;
+    color:#fff;
+    font-size: 20px;
+    border: 1px solid #99c50a;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: 0.4s ease-in-out;
+    -webkit-animation: 0.4s;
+    -moz-animation: 0.5s;
+    -o-animation: 0.5s;
+       
+}
+.subone ul li a:hover{
+    cursor: pointer;
+    background-color: rgba(38, 0, 255, 0.555);
+    color: red;   
+}
+
+ .two{
+    width: 50%;
+    float: left;
+    background-color: #f5f9eb;
+}
+
+.subtwo ul{
+    list-style: none;
+}
+
+.subtwo ul li{
+    margin: 10px 35px ;
+}
+.subtwo ul li a{
+    background-color: #99c50a;
+    border: none;
+    text-decoration: none;
+    border-radius: 5PX;
+    padding: 10px 10px;
+    color:#fff;
+    font-size: 20px;
+    border: 1px solid #99c50a;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: 0.4s ease-in-out;
+    -webkit-animation: 0.4s;
+    -moz-animation: 0.5s;
+    -o-animation: 0.5s;
+       
+}
+.subtwo ul li a:hover{
+    cursor: pointer;
+    background-color: rgba(38, 0, 255, 0.555);
+    color: red;   
+}
+
+/* footer part css end */
